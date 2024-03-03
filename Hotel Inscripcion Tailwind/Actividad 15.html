@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ICSE-BOOK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <body>
+    <center>
+      <div class="bg-blue-500 py-10">
+        <h1 class="text-4xl font-bold text-white">ICSE-BOOK</h1>
+        <p class="text-white">Connecting people!!</p>
+        <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold px-4 py-1">Registrate </button>
+      </div>
+      <div class="w-64">
+        <div class="w-64 mt-5 border-2">
+          <div class="bg-blue-500">
+            <h3>Entra</h3>
+          </div>
+          <form id="forma"  style="margin: 0!important;">
+            <div>
+              <label for="username">Nombre de usuario:</label>
+              <br>
+              <input class="border-2 border-blue-300" type="text" id="username" name="username">
+              <br>
+            </div>
+            <div>
+              <label for="pwd">Contraseña:</label>
+              <br>
+              <input class="border-2 border-blue-300" type="password" id="pwd" name="pwd">
+            </div>
+            <br>
+            <button class="bg-green-500 hover:bg-orange-700 text-white font-bold px-4 py-1">Entrar </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    </center>
+    <div  id="myModal">
+      <div>
+        <div>
+          <div class="hidden container text-center border-solid border-2  w-1/5 mx-auto mt-4 ">
+            <div>
+              <div>
+                <h4 >Formulario de registro</h4>
+            </div>
+              <form id="forma">
+                <div>
+                  <label for="username">Nombre de usuario:</label>
+                  <br>
+                  <input type="text" id="username" name="username" class="border-2">
+                  <br>
+                </div>
+                <div>
+                  <label for="pwd">Apellidos:</label>
+                  <br>
+                  <input type="text" id="pwd" name="pwd" class="border-2">
+                </div>
+                <div>
+                  <label for="pwd">Direccion:</label>
+                  <br>
+                  <input type="text" id="pwd" name="pwd" class="border-2">
+                </div>
+                <div>
+                  <label for="pwd">Contraseña:</label>
+                  <br>
+                  <input type="password" id="pwd" name="pwd" class="border-2">
+                </div>
+                <div>
+                  <label for="pwd"><h3>Tipo de usuario:</h3></label>
+                  <select name="cars"  custom-select-sm class="border-2">
+                    <option selected>Administrador</option>
+                    <option value="volvo">Cliente</option>
+                    <option value="fiat">Moderador</option>
+                  </select>
+                </div>
+                <div>
+                  <button class="bg-green-500 hover:bg-orange-700 text-white font-bold px-4 py-1">Guardar </button>
+                  <button class="bg-red-500 hover:bg-orange-700 text-white font-bold px-4 py-1">Cancelar </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
