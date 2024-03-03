@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ICSE-BOOK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <center>
+      <div class="jumbotron text-center bg-primary" style="color: whitesmoke;">
+        <h1>ICSE-BOOK</h1>
+        <p>Connecting people!!</p>
+        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+          <i class="bi bi-list-task"></i> &#160Registrate </button>
+      </div>
+      <div class="container">
+        <div class="row"></div>
+        <div class="col-sm-4">
+          <div class="container p-3 my-3 bg-primary text-white " style="margin: 0!important;">
+            <h3>Entra</h3>
+          </div>
+          <form id="forma" class="container p-3 my-3 bg-dark text-white" style="margin: 0!important;">
+            <div>
+              <label for="username">Nombre de usuario:</label>
+              <br>
+              <input type="text" id="username" name="username">
+              <br>
+            </div>
+            <div>
+              <label for="pwd">Contraseña:</label>
+              <br>
+              <input type="password" id="pwd" name="pwd">
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">
+              <i class="bi bi-arrow-up-short"></i>Entrar </button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </center>
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Formulario de registro</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form id="forma">
+              <div>
+                <label for="username">Nombre de usuario:</label>
+                <br>
+                <input type="text" id="username" name="username">
+                <br>
+              </div>
+              <div>
+                <label for="pwd">Apellidos:</label>
+                <br>
+                <input type="text" id="pwd" name="pwd">
+              </div>
+              <div>
+                <label for="pwd">Direccion:</label>
+                <br>
+                <input type="text" id="pwd" name="pwd">
+              </div>
+              <div>
+                <label for="pwd">Contraseña:</label>
+                <br>
+                <input type="password" id="pwd" name="pwd">
+              </div>
+              <div>
+                <label for="pwd">Tipo de usuario:</label>
+                <br>
+                <select name="cars" class="custom-select custom-select-sm">
+                  <option selected>Administrador</option>
+                  <option value="volvo">Cliente</option>
+                  <option value="fiat">Moderador</option>
+                </select>
+              </div>
+            </form>
+            <br>
+            </form>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">Entra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
