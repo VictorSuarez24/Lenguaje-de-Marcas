@@ -1,0 +1,50 @@
+body{
+    background-color: #EE3D3B;
+    margin-top: 40px;
+}
+.GameBoy{
+    background-color: #017D97;
+    border: 5px solid #017D97;
+    height: 800px;
+    width: 550px;
+    border-collapse: collapse;
+    border-radius: 12px;
+    border-bottom-right-radius: 70px;
+}
+.pantallanegra{
+    background-color: #1B1A20;
+    border: 5px solid #1B1A20;
+    height: 400px;
+    width: 500px;
+    margin-top: 40px;
+}
+.pantalla{
+    background-color: #9F9B02;
+    border: 5px solid #9F9B02;
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.hr{
+    background-color: black;
+}
+.cruzeta{
+    width: 150px;
+    margin-right: 300px;
+}
+.linea{
+    height: 7px;
+    background-color: black;
+    width: 500px;
+    border: black;
+}
+.boton1{
+    width: 80px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.boton2{
+    width: 80px;
+}
