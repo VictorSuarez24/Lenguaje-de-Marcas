@@ -1,0 +1,74 @@
+
+h1 {
+    display: flex;
+    font-size: 4.5vw;
+    justify-content: center;
+    margin-top: 15%;
+    font-family: 'Bangers', system-ui;
+    font-weight: 100;
+    font-style: oblique;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+.amarillo {
+    display: block;
+    color: rgb(127, 127, 0);
+}
+.violeta {
+    display: none;
+    color: rgb(127, 130, 127);
+}
+.rojo {
+    display: none;
+    color: rgb(127, 0, 0);
+}
+.verde {
+    display: none;
+    color: rgb(0, 127, 0);
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+    background-color: rgba(238, 130, 238, 0.5);
+    }
+    .amarillo {
+        display: none;
+    }
+    .violeta {
+        display: block;
+    }
+}
+@media only screen and (max-width: 512px) {
+    body {
+    background-color: rgba(255, 0, 0, 0.5);
+    }
+    .violeta {
+        display: none;
+    }
+    .rojo {
+        display: block;
+    }
+
+}
+@media only screen and (max-width: 128px) {
+    body {
+    background-color: rgba(0, 128, 0, 0.5);
+    }
+    .rojo {
+        display: none;
+    }
+    .verde {
+        display: block;
+    }
+}
